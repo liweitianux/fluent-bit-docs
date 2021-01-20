@@ -26,6 +26,11 @@ To get more details about how to setup the HEC in Splunk please refer to the fol
       <td style="text-align:left">8088</td>
     </tr>
     <tr>
+      <td style="text-align:left">Compress</td>
+      <td style="text-align:left">Set payload compression mechanism. Option available is 'gzip'.</td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
       <td style="text-align:left">Splunk_Token</td>
       <td style="text-align:left">Specify the Authentication <a href="http://dev.splunk.com/view/event-collector/SP-CAAAE7C">Token</a> for
         the HTTP Event Collector interface.</td>
@@ -36,8 +41,7 @@ To get more details about how to setup the HEC in Splunk please refer to the fol
       <td style="text-align:left">
         <p>When enabled, the record keys and values are set in the top level of the
           map instead of under the <em>event</em> key.</p>
-        <p></p>
-        <p><b>note: </b>refer to the Sending Raw Events section below for more details
+        <p><b>note:</b> refer to the Sending Raw Events section below for more details
           to make this option work properly.</p>
       </td>
       <td style="text-align:left">Off</td>
